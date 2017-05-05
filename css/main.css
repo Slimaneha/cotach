@@ -94,13 +94,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  *{
+      text-align: center;
+      margin: 0;
+  }
+
 
                      /*Strat Of Rules Css Header */
-header
+header{
+    position: fixed;
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+}
 
 
+ul  {
+    margin-right: auto;
+    display: flex;
+    
+}
 
+li{
+    list-style: none;
+     margin-left: 2em;
+     margin-bottom: 1em;
+     
+     
+}
 
+h2{
+    margin-top: 2em;
+}
 
 
 
