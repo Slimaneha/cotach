@@ -97,6 +97,9 @@ textarea {
   *{
       text-align: center;
       margin: 0;
+  } 
+  #icon{
+      display: none;
   }
 
 
@@ -104,13 +107,24 @@ textarea {
 header{
     position: fixed;
     display: flex;
-    background-color: lightgray;
+    background-color:black;
     justify-content: space-between;
+    color: #FE642E;
 }
+    header a{
+        color: #FE642E;
+        font-size: 20px;
 
+    }
+
+    /*header a:hover>icon{
+        display: block;
+        
+    }*/
 
 ul  {
-    margin-right: auto;
+    
+    margin-top:1em;
     display: flex;
     
 }
@@ -118,7 +132,7 @@ ul  {
 li{
     list-style: none;
      margin-left: 2em;
-     margin-bottom: 1em;
+     padding-bottom: 2em;
      
      
 }
