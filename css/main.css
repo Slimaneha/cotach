@@ -153,6 +153,7 @@ h2{
             
 section{
     border-bottom: solid 1px lightgray;
+    padding-bottom: 2em;
 }
 form{
     justify-content: center;
