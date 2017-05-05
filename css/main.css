@@ -104,16 +104,21 @@ textarea {
 
 
                      /*Strat Of Rules Css Header */
-header{
-    position: fixed;
+header,footer{
+    position:fixed;
     display: flex;
-    background-color:black;
+    background-color:#424242;
     justify-content: space-between;
     color: #FE642E;
 }
-    header a{
+    header a ,footer a{
         color: #FE642E;
         font-size: 20px;
+   }   
+
+p{
+     font-family: 'EB Garamond', serif;
+     font-size: 20px;
 
     }
 
@@ -139,11 +144,35 @@ li{
 
 h2{
     margin-top: 2em;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-bottom: 2em;
+
 }
 
+            /*Carouselle */
+            
 section{
     border-bottom: solid 1px lightgray;
 }
+form{
+    justify-content: center;
+}
+
+
+#carouselExampleIndicators{
+   justify-content: center;
+    margin: auto;
+   margin-top: 3em;
+   width: 100%;
+  
+}
+
+
+input{
+    text-align: center;
+    justify-content: center;    
+}
+
 
 
 
